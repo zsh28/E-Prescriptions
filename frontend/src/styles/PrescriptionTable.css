@@ -1,0 +1,101 @@
+.prescription-table-container {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.prescription-table-container h1 {
+  color: #005eb8;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #005eb8;
+}
+
+.prescription-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.prescription-table-container th,
+.prescription-table-container td {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.prescription-table-container th {
+  background-color: #005eb8;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.prescription-table-container tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.prescription-table-container tr:hover {
+  background-color: #d0e4f7;
+}
+
+.prescription-table-container input[type="text"],
+.prescription-table-container select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #4c6272;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.prescription-table-container input[type="text"]:focus,
+.prescription-table-container select:focus {
+  outline: none;
+  border-color: #1d70b8;
+}
+
+.prescription-table-container button {
+  background-color: #005eb8;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 2px 0 #004b8d;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-transform: none;
+}
+
+.prescription-table-container button:last-child {
+  margin-right: 0;
+}
+
+.prescription-table-container button:hover {
+  background-color: #0a47b8;
+  box-shadow: 0 2px 0 #00235b;
+}
+
+@media (max-width: 600px) {
+  .prescription-table-container {
+    padding: 10px;
+  }
+
+  .prescription-table-container h1 {
+    font-size: 24px;
+  }
+
+  .prescription-table-container table,
+  .prescription-table-container input[type="text"],
+  .prescription-table-container select,
+  .prescription-table-container button {
+    font-size: 14px;
+  }
+}

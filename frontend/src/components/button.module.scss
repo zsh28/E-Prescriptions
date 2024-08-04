@@ -1,0 +1,20 @@
+.button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    color: #005eb8;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #7c2855;
+    text-decoration: underline;
+}
+
+.button:focus {
+	background-color: #ffeb3b;
+	box-shadow: 0 -2px #ffeb3b, 0 4px #212b32;
+	color: #212b32;
+	outline: 4px solid transparent;
+	text-decoration: none;
+}

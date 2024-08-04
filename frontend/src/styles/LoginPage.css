@@ -1,0 +1,65 @@
+.login-form {
+    max-width: 400px;
+    padding: 1rem;
+  }
+  
+  .nhsuk-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .password-group .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #005a9c;
+  }
+  
+  .password-toggle:focus {
+    outline: none;
+  }
+  
+  .nhsuk-input {
+    width: 100%;
+  }
+  
+  .nhsuk-button {
+    background-color: #005ea5;
+    color: white;
+  }
+  
+  .nhsuk-button:disabled {
+    background-color: #cccccc;
+  }
+  
+.forgot-password-link {
+  text-align: right; 
+  margin-top: 10px; 
+}
+
+.forgot-link {
+  color: #007bff; 
+  font-weight: 600; 
+  font-size: 0.9rem; 
+  transition: color 0.3s ease-in-out; 
+}
+
+.forgot-link:hover, .forgot-link:focus {
+  color: #0056b3;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .forgot-link {
+    transition: none; 
+  }
+}
+

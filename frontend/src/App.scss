@@ -1,0 +1,16 @@
+@import 'node_modules/nhsuk-frontend/packages/nhsuk';
+
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.small {
+        font-size: 0.7em;
+}
+
+pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+}

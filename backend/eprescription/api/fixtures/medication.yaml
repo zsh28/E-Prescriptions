@@ -1,0 +1,146 @@
+- model: api.medication
+  fields:
+    name: "Paracetamol"
+    description: "Pain killer"
+    dosage: "100mg"
+    side_effects: "Headache, nausea"
+
+- model: api.medication
+  fields:
+    name: "Paracetamol"
+    description: "Pain killer"
+    dosage: "500mg"
+    side_effects: "Headache, nausea"
+
+- model: api.medication
+  fields:
+    name: "Ibuprofen"
+    description: "Pain killer"
+    dosage: "200mg"
+    side_effects: "Dry mouth, feeling dizzy"
+
+- model: api.medication
+  fields:
+    name: "Acetaminophen"
+    description: "Acetaminophen is a pain reliever and a fever reducer."
+    dosage: "500mg"
+    side_effects: "Nausea, stomach pain, loss of appetite, itching, rash"
+
+- model: api.medication
+  fields:
+    name: "Loratadine"
+    description: "Loratadine is an antihistamine used to treat allergy symptoms such as sneezing, runny nose, and itching."
+    dosage: "10mg"
+    side_effects: "Dry mouth, headache, drowsiness"
+
+- model: api.medication
+  fields:
+    name: "Diphenhydramine"
+    description: "Diphenhydramine is an antihistamine used to relieve symptoms of allergy, hay fever, and the common cold."
+    dosage: "25mg"
+    side_effects: "Dry mouth, drowsiness, blurred vision"
+
+- model: api.medication
+  fields:
+    name: "Aspirin"
+    description: "Aspirin is a nonsteroidal anti-inflammatory drug (NSAID) used to treat pain, fever, and inflammation."
+    dosage: "325mg"
+    side_effects: "Stomach upset, heartburn, dizziness, ringing in the ears"
+
+- model: api.medication
+  fields:
+    name: "Naproxen"
+    description: "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, swelling, and joint stiffness caused by arthritis, gout, menstruation, or other conditions."
+    dosage: "220mg"
+    side_effects: "Stomach pain, heartburn, dizziness, headache"
+    
+- model: api.medication
+  fields:
+    name: "Cetirizine"
+    description: "Cetirizine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, and sneezing."
+    dosage: "10mg"
+    side_effects: "Drowsiness, tiredness, dry mouth"
+    
+- model: api.medication
+  fields:
+    name: "Fexofenadine"
+    description: "Fexofenadine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, itching eyes/nose, and sneezing."
+    dosage: "180mg"
+    side_effects: "Headache, back pain, cough"
+    
+- model: api.medication
+  fields:
+    name: "Loperamide"
+    description: "Loperamide is an antidiarrheal medication used to control acute nonspecific diarrhea and chronic diarrhea associated with inflammatory bowel disease."
+    dosage: "2mg"
+    side_effects: "Constipation, abdominal cramps, dizziness"
+
+- model: api.medication
+  fields:
+    name: "Benzydamine"
+    description: "Benzydamine is an NSAID (non-steroidal anti-inflammatory drug) that reduces pain and swelling (inflammation). It's used for: mouth ulcers, sore throats etc."
+    dosage: "15ml"
+    side_effects: "Stinging, numbness"
+
+- model: api.medication
+  fields:
+    name: "Clarithromycin"
+    description: "Clarithromycin is an antibiotic used to treat chest infections such as pneumonia, skin problems such as cellulitis, and ear infections."
+    dosage: "250mg"
+    side_effects: "Nausea, Diarrhoea, Headaches, Indigestion, Insomnia"
+
+- model: api.medication
+  fields:
+    name: "Digoxin"
+    description: "Digoxin is a cardiac glycoside. It's used to control some heart problems, such as irregular heartbeats."
+    dosage: "125mg"
+    side_effects: "Dizziness, Nausea, Diarrhoea, Rashes"
+
+- model: api.medication
+  fields:
+    name: "Erythromycin"
+    description: "Erythromycin is an antibiotic. It's widely used to treat chest infections, such as pneumonia, skin conditions, such as acne and rosacea, dental abscesses, and sexually transmitted infections."
+    dosage: "250mg"
+    side_effects: "Nausea, Diarrhoea, Cramps, Appetite Loss, Indigestion"
+
+- model: api.medication
+  fields:
+    name: "Fluconazole"
+    description: "Fluconazole is an antifungal medication used for a number of fungal infections."
+    dosage: "50mg"
+    side_effects: "Headache, Diarrhoea, Stomach Pain, Nausea, Rash"
+
+- model: api.medication
+  fields:
+    name: "Ketoconazole"
+    description: "Ketoconazole is an antifungal medicine. It's used to treat skin infections caused by a fungus (yeast)."
+    dosage: "200mg"
+    side_effects: "Itching, Burning Feeling"
+
+- model: api.medication
+  fields:
+    name: "Lorezepam"
+    description: "Lorezepam is used to treat anxiety, trouble sleeping, severe agitation, active seizures including status epilepticus, alcohol withdrawal, and chemotherapy-induced nausea and vomiting."
+    dosage: "1mg"
+    side_effects: "Fatigue, Weakness"
+
+- model: api.medication
+  fields:
+    name: "Melatonin"
+    description: "Melatonin is mainly used to treat sleep problems."
+    dosage: "2mg"
+    side_effects: "Fatigue, Nausea, Irritability, Dry/Itchy skin, Limb Pains"
+
+- model: api.medication
+  fields:
+    name: "Nefopam"
+    description: "Nefopam is a centrally acting, non-opioid painkilling medication, that is primarily used to treat moderate to severe pain."
+    dosage: "30mg"
+    side_effects: "Nausea, Dizziness, Nervousness, Dry Mouth"
+
+- model: api.medication
+  fields:
+    name: "Risperidone"
+    description: "Risperidone is an atypical antipsychotic used to treat schizophrenia and bipolar disorder."
+    dosage: "1mg"
+    side_effects: "Fatigue, Gaining Weight, Nausea, Constipation"
